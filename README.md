@@ -30,7 +30,7 @@ Link:https://airfarepred.herokuapp.com/
 <img target="_blank" src="https://i.imgur.com/Y5KXMec.png" width=400 height=200>
 
 ### Vertical Spreads
-- Hunts opportunities across various expiry on Call and Put side . 
+- Hunts opportunities across every Expiry on Call and Put side . 
 <img target="_blank" src="https://i.imgur.com/3hqerYK.png" width=400 height=200>
 
 
