@@ -17,10 +17,22 @@ Algorithms used in this app , targets such inefficencies and exploits the opport
 Link:https://airfarepred.herokuapp.com/
 
 [![](https://i.imgur.com/jk0DgLR.gifv)]
+<img target="_blank" src="https://i.imgur.com/Qphlx9g.png" width=400 height=200>
+<img target="_blank" src="https://i.imgur.com/EdaG70F.png" width=400 height=200>
+<img target="_blank" src="https://i.imgur.com/n0CBQb9.png" width=400 height=200>
+
+
 
 
 ## Overview
-Predict the prices of airlines based on date and time of journey , as well as type of airlines and number of stops .
+### Calender Spreads
+- Hunts opportunities across various expiry on Call and Put side . 
+<img target="_blank" src="https://i.imgur.com/Y5KXMec.png" width=400 height=200>
+
+### Vertical Spreads
+- Hunts opportunities across various expiry on Call and Put side . 
+<img target="_blank" src="https://i.imgur.com/3hqerYK.png" width=400 height=200>
+
 
 
 ## Installation
@@ -29,42 +41,46 @@ Install all dependancies using following command after cloning [cloning](https:/
 pip install -r requirements.txt
 ```
 
-## Deployement on Heroku
-- Signup on heroku.com 
-- To deploy on heroku we need heroku ctl to be downloaded 
+## Deployement on AWS EC2 Instance 
+- Signup on AWS 
+- This deployment is done using EC2 instance using Free tier (Ubuntu OS) 
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+[![](https://i.imgur.com/xAXgRbf.png)](https://aws.amazon.com/)
 
-- Next step is to create heroku app with name as per availability 
-- We need to push the code on heroku using Git commit 
-- detail steps are given in the documentation (for documentation visit Heroku website) 
-- [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python)
 
-Importatnt Things to make note of while deploying model to Heroku free cloud . 
-- Heroku provides max 500MB sludge memory 
-- If we have big model , its not possible to deploy it on Heroku Cloud. 
+- Next step is to create app with name as per availability 
+- For this particular App ,  we need to creat the environment 
+- Create network interface , for public access 
+- Push the code to Cloud 
+- detail steps are given in the documentation (for documentation visit AWS documentation ) 
+- [AWS Documentation](https://docs.aws.amazon.com/)
+
+Importatnt Things to make note of while deploying model to AWS free cloud . 
+- Certain SSL requests will be declined by Service provider 
+- Eg. For fetching live data from NSE india website , if we try to fetch it from AWS virtual environment, It is giving SSL certificate error 
+- Better is to run this App locally for effective use . 
 
 
 ## Directory Tree 
 ```
 ├── static 
-│   ├── css
-│      ├── style.css
-├── images 
-│   ├── flight.jpeg
+│   ├── images 
 ├── templates
-│   ├── home.html
-├── Preprocessing.py
-├── feature_selection.py
+│   ├── index.html
+│   ├── simple.html
+│   ├── simple_put.html
+│   ├── simple_VCS.html
+│   ├── simple_VPS.html
+├── preprocessing.py
+├── post_processing.py
+├── req.py
+├── OC.py
 ├── app.py
-├── Procfile
 ├── README.md
-├── model.pkl
+├── page.pkl
 ├── requirements.txt
 ```
 
-- model.pkl is not copied to repo , as size is to huge 
-- Please run Preprocessing.py in your local machine first to get model.pkl 
 
 ## Technologies Used
 
