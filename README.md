@@ -93,5 +93,5 @@ Importatnt Things to make note of while deploying model to AWS free cloud .
 ## Am I missing Something?
 
 - **Nothing is impossible!**
-- please open an [issue](https://github.com/kudeore/Flight_price_pred_AWS_APP/issues) and lets make it better together 
+- please open an [issue](https://github.com/kudeore/Fin_EMH_anomally_Detection/issues) and lets make it better together 
 - *Bug reports, feature requests, patches, and well-wishes are always welcome.* :heavy_exclamation_mark:
