@@ -16,7 +16,7 @@ Algorithms used in this app , targets such inefficencies and exploits the opport
 ## Visuals
 Link:https://airfarepred.herokuapp.com/
 
-[![](https://i.imgur.com/jk0DgLR.gifv)](https://heroku.com)
+[![](https://i.imgur.com/jk0DgLR.gifv)]
 
 
 ## Overview
