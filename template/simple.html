@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {background-color: MintCream;}
+    h1 {color: red;}
+    h1 {text-align: center;}
+    p {color: blue;}
+ </style>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h1 style="background-color:MediumSeaGreen;">CALL CALENDER SPREAD</h1>
+
+</head>
+<body>
+
+<table style="width:100%">
+	{% for table in tables %}
+           	{{ table|safe }}
+	{% endfor %}
+</body>
+</html>
