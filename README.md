@@ -16,8 +16,7 @@ Algorithms used in this app , targets such inefficencies and exploits the opport
 ## Visuals
 Link:http://ec2-3-19-79-88.us-east-2.compute.amazonaws.com:8080/
 
-[![](https://i.imgur.com/jk0DgLR.gifv)]
-<img target="_blank" src="https://i.imgur.com/Qphlx9g.png" width=400 height=200>
+[![<img target="_blank" src="https://i.imgur.com/Qphlx9g.png" width=400 height=200>]
 <img target="_blank" src="https://i.imgur.com/EdaG70F.png" width=400 height=200>
 <img target="_blank" src="https://i.imgur.com/n0CBQb9.png" width=400 height=200>
 
