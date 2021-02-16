@@ -1,4 +1,4 @@
-# Fin Efficient Market Hypothesis(EMH) anoomaly Detection
+# Fin Efficient Market Hypothesis(EMH) anomally Detection
 
 An app to exploit opportunities in Financial markets, by finding anomalies in Efficient Market Hypothesis. 
 Normally Derivative data in Financial Capital markets follows Efficient Market Hypothesis , where in Option Primiums (Derivatives) follows , black scholes Model. 
